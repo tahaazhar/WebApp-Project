@@ -107,6 +107,7 @@
 .feature-img img
 {
     width: 100%;
+    height: 35%;
 }
 
 .feature-price
@@ -125,4 +126,82 @@
 {
     font-size: 15px;
     color: #ff5722;
+}
+
+.feature-details
+{
+    padding: 20px;
+    text-align: left;
+}
+
+.feature-details h4
+{
+    font-weight: 600;
+}
+
+.feature-details p
+{
+    font-size: 13px;
+}
+
+.feature-details .fa
+{
+    margin-right: 5px;
+}
+
+.feature-details span
+{
+    font-size: 12px;
+}
+
+.feature-box
+{
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    margin-bottom: 30px;
+}
+
+/* The image gallary part */
+
+.gallary
+{
+    padding: 100px 0;
+    background: #efefef;
+}
+
+.gallary h1
+{
+    text-align: center;
+}
+
+.gallary-box
+{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.gallary-box img
+{
+    width: 100%;
+    height: 90%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.gallary-box img:hover
+{
+    transform: scale(1.1);
+}
+
+.gallary-box h4
+{
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    text-shadow: -2px 2px 2px #000;
+    transform: translate(-50%);
+    display: block;
+    font-size: 20px;
 }
