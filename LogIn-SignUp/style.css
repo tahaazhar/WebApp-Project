@@ -1,0 +1,16 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: url(img/banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.login-box
+{
+    width: 320px;
+    height: 420px;
+    background: #fff;
+}
