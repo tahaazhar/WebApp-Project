@@ -24,7 +24,7 @@
 {
     width: 100px;
     padding: 8px 0;
-    outline: none;
+    outline: none !important;
     border: 2px solid black;
     border-radius: 50px;
     background: transparent;
@@ -42,7 +42,7 @@
 {
     width: 100px;
     padding: 8px 0;
-    outline: none;
+    outline: none !important;
     border: 2px solid black;
     border-radius: 50px;
     background: transparent;
@@ -65,7 +65,7 @@
 
 .input-group
 {
-    width: 90%;
+    width: 90% !important; 
     max-width: 500px;
     border-radius: 30px;
     margin: auto;
@@ -74,20 +74,20 @@
 
 .input-group .form-control
 {
-    border: 0;
-    border-radius: 30px;
+    border: 0 !important;
+    border-radius: 30px !important;
     margin: 2px;
-    box-shadow: none;
+    box-shadow: none !important;
 }
 
 .input-group .input-group-text
 {
     width: 100px;
-    background-image: linear-gradient(cyan, palegoldenrod);
-    border: 0;
-    color: white;
-    padding: 0 25px;
-    border-radius: 30px;
+    background-image: linear-gradient(cyan, palegoldenrod); 
+    border: 0 !important;
+    color: white !important;
+    padding: 0 25px !important;
+    border-radius: 30px !important;
     box-shadow: none;
 }
 
@@ -158,6 +158,7 @@
 {
     box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
     margin-bottom: 30px;
+    height: 100%;
 }
 
 /* The image gallary part */
@@ -204,4 +205,125 @@
     transform: translate(-50%);
     display: block;
     font-size: 20px;
+}
+
+/* Banner section */
+
+.banner
+{
+    height: 80%;
+    background-image: url(images/banner2.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 15%;s
+}
+
+.banner-highlights
+{
+    padding: 70px 0;
+    background: rgba(0,0,0,0.3);
+    text-align: center;
+    color: white
+}
+
+.booking-btn
+{
+    width: 120px;
+    padding: 10px 0;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 50px;
+    background: transparent;
+    color: white;
+    margin-top: 20px;
+}
+
+/* User Reviews*/
+
+.user-feedback
+{
+    padding: 100px 0;
+}
+
+.user-feedback h1
+{
+    text-align: center;
+}
+
+.user-feedback img
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin: -30px 0 20px 40%;
+}
+
+
+.user-review
+{
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 100, 0.2);
+    padding-bottom: 50px;
+    height: 80%;
+}
+
+.user-review p
+{
+    padding: 50px 10px 10px 10px; 
+}
+
+.user-review p::before
+{
+    content: '\201d';
+    display: block;
+    position: absolute;
+    font-size: 100px;
+    color: #ff5722;
+    font-family: sans-serif;
+    left: 44%;
+    top: -20px;
+}
+
+/* Footer Section */
+
+.footer
+{
+    padding: 100px 20px;
+    background-image: linear-gradient(cyan, palegoldenrod);
+    color: black;
+}
+
+.footer-logo
+{
+    width: 80px;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+}
+
+.footer h4
+{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.footer p 
+{
+    font-size: 12px;
+    text-align: justify; 
+    padding-right: 35px;
+}
+
+.footer .row .fa
+{
+    padding-right: 10px;
+    font-size: 14px; 
+}
+
+.footer hr
+{
+    margin-top: 10px;
+    background: black; 
 }
